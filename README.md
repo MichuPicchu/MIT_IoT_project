@@ -47,10 +47,12 @@ Here we followed a strict protocol, with the TI sensortags applied as according.
     - I tested several models : SVM, DT, KNN, multilayer perceptron
     - One of my other groupmate applied the LSTM model
 
-These were the accuracy results of the ML model: 
+    - These were the accuracy results of the ML model: 
 <p align="center">
   <img src="readme_images/results.png" width="50%" >
 </p>
+
+As you can see, the best accuracy scores for training and testing were in the mid 90's from the LSTM.
 
 <br></br>
 - ### Live-time output:

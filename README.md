@@ -11,7 +11,7 @@
 - Solution Architecture : 
 
 <p align="center">
-  <img src="architecture.png" width="60%" >
+  <img src="readme_images/architecture.png" width="60%" >
 </p>
 
 
@@ -31,7 +31,7 @@ As this part was mainly done by two other members, more information can be read 
 Here we followed a strict protocol, with the TI sensortags applied as according.
 
 <p align="center">
-  <img src="datacollection.png" width="50%" >
+  <img src="readme_images/datacollection.png" width="50%" >
 </p>
 
 <br>
@@ -49,15 +49,15 @@ Here we followed a strict protocol, with the TI sensortags applied as according.
 
 These were the accuracy results of the ML model: 
 <p align="center">
-  <img src="results.png" width="50%" >
+  <img src="readme_images/results.png" width="50%" >
 </p>
 
 <br></br>
 - ### Live-time output:
 
 <p align="center">
-  <img src="bending.png" width="50%" >
-  <img src="squatting.png" width="50%" >
+  <img src="readme_images/bending.png" width="50%" >
+  <img src="readme_images/squatting.png" width="50%" >
 </p>
 
 <br>

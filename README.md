@@ -4,7 +4,7 @@
 
 - This project was for an IoT course
 - I came up with the idea of the project, after reading several published papers on google scholar (which can be found in the references of the report)
-- A project with 4 members, I mostly worked on the ata collection, data preprocessing, machine learning and results component.
+- A project with 4 members, I mostly worked on the data collection, data preprocessing, machine learning and results component.
 
 - Goal: Develop a system, which can help detect and monitor the work-related musculoskeletal disorder (WMSD) risk of construction or office workers. We used two sensor tags to determine and analyse the dynamic posture, as well as track the safety of the surrounding environment, by measuring the linear and angular acceleration, magnetic field strength, humidity, temperature and pressure.
 
@@ -14,10 +14,12 @@
   <img src="readme_images/architecture.png" width="60%" >
 </p>
 
+( For more information please read our report Project_Report_IoT.pdf )
+
 
 <br></br>
 ## What we did :
-In short, we collected raw IMU data from the two sensortags with BLE, and needed to classify the position type (squatting, bending , standing ) of the user in live time, whilst monitoring the temperature, air pressure, and the humidity of the environment.
+In short, we collected raw IMU data from the two SensorTags with bluetooth low energy (BLE), and needed to classify the position type (squatting, bending , standing ) of the user in live time, whilst monitoring the temperature, air pressure, and the humidity of the environment.
 
 
 <br>
@@ -29,7 +31,7 @@ As this part was mainly done by two other members, more information can be read 
 
 - ### Data Collection
 
-Here we followed a strict protocol, with the TI sensortags applied as according.
+Here we followed a strict protocol, with the SensorTags applied as according.
 
 <p align="center">
   <img src="readme_images/datacollection.png" width="50%" >
@@ -45,10 +47,10 @@ Here we followed a strict protocol, with the TI sensortags applied as according.
 <br>
 
 - ### Machine Learning:
-    - I tested several models : SVM, DT, KNN, multilayer perceptron
-    - One of my other groupmate applied the LSTM model
+    - I tested several AI models : support-vector machine (SVM), decision tree (DT), K-Nearest Neighbors (KNN), multilayer perceptron
+    - One of my other groupmate applied the long-short term memory (LSTM) model
 
-    - These were the accuracy results of the ML model: 
+    - These were the accuracy results of the ML model after training with time-series data from SensorTags: 
 <p align="center">
   <img src="readme_images/results.png" width="50%" >
 </p>
@@ -69,4 +71,3 @@ My own personal work can be found in IoT_project.ipynb. Where I helped with the 
 </p>
 
 <br>
-Further information can be read in our report.

@@ -17,7 +17,8 @@
 
 <br></br>
 ## What we did :
-In short, we collected raw IMU data from the two sensortags with BLE, and needed to classify the position type (squatting, bending , standing ) of the user in live time.
+In short, we collected raw IMU data from the two sensortags with BLE, and needed to classify the position type (squatting, bending , standing ) of the user in live time, whilst monitoring the temperature, air pressure, and the humidity of the environment.
+
 
 <br>
 
@@ -53,6 +54,11 @@ Here we followed a strict protocol, with the TI sensortags applied as according.
 </p>
 
 As you can see, the best accuracy scores for training and testing were in the mid 90's from the LSTM.
+
+<br>
+
+My contribution:
+My own personal work can be found in IoT_project.ipynb. Where I helped with the data collection (designing the protocol, collected data etc), did the preprocessing, created and tuned several ML models, and applied the best model to predict the motion in live-time.
 
 <br></br>
 - ### Live-time output:

@@ -71,3 +71,5 @@ My own personal work can be found in IoT_project.ipynb. Where I helped with the 
 </p>
 
 <br>
+
+( Again, for more information please read our report Project_Report_IoT.pdf )

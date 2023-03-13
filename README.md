@@ -70,6 +70,15 @@ My own personal work can be found in IoT_project.ipynb. Where I helped with the 
   <img src="readme_images/squatting.png" width="50%" >
 </p>
 
+
+- ### Final Output (app):
+
+This part shows our final output which can be viewed from an iOS or Android application.
+
+<p align="center">
+  <img src="readme_images/mobile.png" width="20%" >
+</p>
+
 <br>
 
 ( Again, for more information please read our report Project_Report_IoT.pdf )
